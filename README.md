@@ -2,6 +2,12 @@
 
 If you are concerned about the security of the [web4ukraine.org](https://web4ukraine.org) project. Use this open source version of the script.
 
+This version is hosted publicly, so you could see what you embed to your site. Script will call free API [ipapi.co](https://ipapi.co/),
+which will retrive conuntry of visitor by IP lookup. If user country is `RU` script redirect user to website web4ukraine
+with url of visitor page. Website web4ukraine.org redirect user back to your website after 6 seconds.
+
+Script will remember detection result in cookie for one day.
+
 use
 ```html
 <script async src="https://pilotcz.github.io/web4ukraine/index.js"></script>
@@ -12,11 +18,16 @@ insted of
 <script async src="https://js.web4ukraine.org/"></script>
 ```
 
-This version is hosted publicly, so you could see what you embed to your site. Script will call free API [ipapi.co](https://ipapi.co/), 
-which will retrive conuntry of visitor by IP lookup. If user country is `RU` script redirect user to website web4ukraine
-with url of visitor page. Website web4ukraine.org redirect user back to your website after 6 seconds.
+or install wia npm
+```shell
+npm i pilotcz.web4ukraine
+```
+than import module
+```js
+import web4ukraine from "pilotcz.web4ukraine"
 
-Script will remember detection result in cookie for one day.
+web4ukraine();
+```
 
 Use freely or fork it.
 
