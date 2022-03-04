@@ -2,9 +2,9 @@
     function getCountryInfo(callback) {
         var xhr = new XMLHttpRequest();
         xhr.onload = function () {
-            callback(JSON.parse(this.responseText));
+            callback(this.responseText);
         };
-        xhr.open("GET", "http://ip-api.com/json");
+        xhr.open("GET", "https://ipapi.co/country/");
         xhr.send();
     }
 
@@ -31,9 +31,9 @@
     }
 
     if (!getCookie('stop_war')) {
-        getCountryInfo(function (response) {
+        getCountryInfo(function (countryCode) {
             setCookie('stop_war', 'now!', 1);
-            if (response.countryCode === 'RU') {
+            if (countryCode === 'RU') {
                 window.location = 'https://web4ukraine.org/stop?url=' + window.location.href;
             }
         });
