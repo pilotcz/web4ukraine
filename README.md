@@ -12,7 +12,7 @@ insted of
 <script async src="https://js.web4ukraine.org/"></script>
 ```
 
-This version is hosted publicly, so you could see what you embed to your site. Script will call free API [ip-api.com](https://ip-api.com), 
+This version is hosted publicly, so you could see what you embed to your site. Script will call free API [ipapi.co](https://ipapi.co/), 
 which will retrive conuntry of visitor by IP lookup. If user country is `RU` script redirect user to website web4ukraine
 with url of visitor page. Website web4ukraine.org redirect user back to your website after 6 seconds.
 
