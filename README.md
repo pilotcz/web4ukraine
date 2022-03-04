@@ -1,4 +1,4 @@
-# STOP Russian military aggression against Ukraine!
+# STOP Russian military aggression against Ukraine 🇺🇦
 
 If you are concerned about the security of the [web4ukraine.org](https://web4ukraine.org) project. Use this open source version of the script.
 
