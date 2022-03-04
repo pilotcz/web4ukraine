@@ -20,11 +20,11 @@ insted of
 
 or install wia npm
 ```shell
-npm i pilotcz.web4ukraine
+npm i pilotcz-web4ukraine
 ```
 than import module
 ```js
-import web4ukraine from "pilotcz.web4ukraine"
+import web4ukraine from "pilotcz-web4ukraine"
 
 web4ukraine();
 ```
