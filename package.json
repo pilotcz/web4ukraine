@@ -1,0 +1,8 @@
+{
+  "name": "pilotcz/web4ykraine",
+  "version": "1.0.0",
+  "description": "STOP Russian military aggression against Ukraine!",
+  "main": "index.js",
+  "author": "pilotcz",
+  "license": "Apache-2.0"
+}
